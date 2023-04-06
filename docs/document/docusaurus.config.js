@@ -13,7 +13,7 @@ function getLatestVersionName() {
 const config = {
   title: 'Be a smart Kintone developer with Kintone UI Component.',
   tagline: 'It will support your UI customization project.',
-  url: 'https://github.com/cybozu-sd/',
+  url: 'https://cybozu-sd.github.io/',
   baseUrl: '/kuc-docusaurus-v2/',
   onBrokenLinks: 'warn', // throw
   onBrokenMarkdownLinks: 'warn',
