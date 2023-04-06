@@ -4,8 +4,8 @@
   <ShortName>Be a smart Kintone developer with Kintone UI Component.</ShortName>
   <Description>Search Be a smart Kintone developer with Kintone UI Component.</Description>
   <InputEncoding>UTF-8</InputEncoding>
-  <Image width="16" height="16" type="image/x-icon">https://kintone-ui-component.netlify.app/img/kuc_box_yellow.png</Image>
-  <Url type="text/html" method="get" template="https://kintone-ui-component.netlify.app/search?q={searchTerms}"/>
-  <Url type="application/opensearchdescription+xml" rel="self" template="https://kintone-ui-component.netlify.app/opensearch.xml" />
-  <moz:SearchForm>https://kintone-ui-component.netlify.app/</moz:SearchForm>
+  <Image width="16" height="16" type="image/x-icon">https://cybozu-sd.github.io/kuc-docusaurus-v2/img/kuc_box_yellow.png</Image>
+  <Url type="text/html" method="get" template="https://cybozu-sd.github.io/kuc-docusaurus-v2/search?q={searchTerms}"/>
+  <Url type="application/opensearchdescription+xml" rel="self" template="https://cybozu-sd.github.io/kuc-docusaurus-v2/opensearch.xml" />
+  <moz:SearchForm>https://cybozu-sd.github.io/kuc-docusaurus-v2/</moz:SearchForm>
 </OpenSearchDescription>
