@@ -92,18 +92,22 @@ text.addEventListener("change", event => {
 ## Browser Support
 
 <table>
-  <tr>
-    <th>Chrome</th>
-    <th>Safari</th>
-    <th>Firefox</th>
-    <th>Edge</th>
-  </tr>
-  <tr>
-    <td>○</td>
-    <td>○</td>
-    <td>○</td>
-    <td>○</td>
-  </tr>
+   <thead>
+      <tr>
+         <th>Chrome</th>
+         <th>Safari</th>
+         <th>Firefox</th>
+         <th>Edge</th>
+      </tr>
+   </thead>
+   <tbody>
+      <tr>
+         <td>○</td>
+         <td>○</td>
+         <td>○</td>
+         <td>○</td>
+      </tr>
+   </tbody>
 </table>
 
 > We confirmed the operation with the latest version of each compatible browser.

@@ -12,7 +12,7 @@ TypeScript を使うと、JavaScript に静的型付けを追加して開発者�
 ## インストールと構成
 
 1. `npm` を使用して `kuc-demo-ts` という名前の新しい KUC プロジェクトを作成します。
-```sh
+```bash
 mkdir kuc-demo-ts
 cd kuc-demo-ts
 npm init -y
@@ -20,17 +20,17 @@ npm init -y
 
 2. `webpack` と `webpack-cli` (コマンドラインで webpack を実行するために使用されるツール) をローカルにインストールします。
 
-```sh
+```bash
 npm install --save-dev webpack webpack-cli
 ```
 
 3. TypeScript コンパイラとローダーをインストールします。
-```sh
+```bash
 npm install --save-dev typescript ts-loader
 ```
 
 4. 次のようなプロジェクトが作成されます。
-```sh
+```bash
 kuc-demo-ts
   |- dist
     |- index.html
@@ -46,7 +46,7 @@ kuc-demo-ts
 
 ## KUC のインポート
 1. `kintone-ui-component` をインストールします。
-```sh
+```bash
 npm install kintone-ui-component
 ```
 
@@ -83,7 +83,7 @@ dropdown.addEventListener('change', ((event: CustomEvent) => {
 root.appendChild(dropdown);
 ```
 3. 次のコマンドを実行してビルドします。
-```sh
+```bash
 npm run build
 ```
 

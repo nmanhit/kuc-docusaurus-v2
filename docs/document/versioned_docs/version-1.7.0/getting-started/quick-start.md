@@ -120,7 +120,7 @@ Please read this [Version conflicts issue and solution](../guides/version-confli
 
 1. Create a folder name `customization`, and move your root into the folder, then execute the following command:
 
-```sh
+```bash
 mkdir customization && cd customization
 npm init -y
 npm install kintone-ui-component
@@ -196,18 +196,22 @@ Output Result：
 ## Browser support status
 
 <table>
-  <tr>
-    <th>Chrome</th>
-    <th>Safari</th>
-    <th>Firefox</th>
-    <th>Edge</th>
-  </tr>
-  <tr>
-    <td>○</td>
-    <td>○</td>
-    <td>○</td>
-    <td>○</td>
-  </tr>
+   <thead>
+      <tr>
+         <th>Chrome</th>
+         <th>Safari</th>
+         <th>Firefox</th>
+         <th>Edge</th>
+      </tr>
+   </thead>
+   <tbody>
+      <tr>
+         <td>○</td>
+         <td>○</td>
+         <td>○</td>
+         <td>○</td>
+      </tr>
+   </tbody>
 </table>
 
 :::tip

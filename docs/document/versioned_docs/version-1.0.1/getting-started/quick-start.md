@@ -92,7 +92,7 @@ In the production environment, you can use the `kuc.min.js` of the UMD to avoid 
 
 1. Create a folder name `my-customization`, and move your root into the folder, then execute the following command:
 
-```sh
+```bash
 mkdir my-customization && cd my-customization
 npm install kintone-ui-component
 npm install webpack

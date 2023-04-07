@@ -94,7 +94,7 @@ unpkg はサイボウズが提供している CDN サービスではありませ
 
 1. `my-customization` というフォルダを作成し、その配下で以下のコマンドを実行します。
 
-```sh
+```bash
 mkdir my-customization && cd my-customization
 npm install kintone-ui-component
 npm install webpack

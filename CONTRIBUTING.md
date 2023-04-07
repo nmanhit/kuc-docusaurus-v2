@@ -33,37 +33,37 @@ The commands are provided as npm-scritpts, so please execute `npm run { Command 
 
 #### 1. Clone from GitHub repository [here](https://github.com/kintone-labs/kintone-ui-component) to local
 
-```sh
+```bash
 git clone git@github.com:kintone-labs/kintone-ui-component.git
 ```
 
 #### 2. Checkout to branch for development
 Please refer to [Branch naming rule](#Branch) and create a new branch for development from the next version branch.
-```sh
+```bash
 git branch <branch name>
 git checkout <branch name>
 ```
 ### Setup
 This repository is a Single Repo using npm.
-```sh
+```bash
 cd kintone-ui-component
 npm ci
 ```
 ### Develop
 #### 1. Implement your functions/features
 #### 2. ESlint check
-```sh
+```bash
 npm run es-lint
 ```
 #### 3. Start storybook to confirm your functions/features
-```sh
+```bash
 npm run storybook
 ```
 #### 4. Commit and Create Pull Request
 Please refer to [Pull Request naming rule](#Pull-Request).
 
 ### Build
-```sh
+```bash
 npm run build:umd_dev
 or
 npm run build:umd_prod
@@ -81,11 +81,11 @@ Please refer to [Document with Docusaurus](https://github.com/kintone-labs/kinto
 You can create several other child branches to implement source code for functions/features and/or unit tests and/or user guides.
 
 The format of the Branch Name is as follows:
-```sh
+```bash
 {Version Number}_Title
 ```
 For example:
-```sh
+```bash
 origin/master/v1.1.0
   |__origin/master/v1.1.0_Button_src
   |__origin/master/v1.1.0_Button_unit_test
@@ -98,7 +98,7 @@ origin/master/v1.1.0
 If you finish the implementation under the child branches, you should merge from the parent branch before creating a pull request against it.<br>
 
 The format of the Pull Request Title is as follows:
-```sh
+```bash
 [Pull Request Type] Title
 ```
 
@@ -115,7 +115,7 @@ Pull Request types are as follows:
 ### Issue
 
 The format of the Issue Title is as follows:
-```sh
+```bash
 [Issue Type] Title
 ```
 |Type| Example|

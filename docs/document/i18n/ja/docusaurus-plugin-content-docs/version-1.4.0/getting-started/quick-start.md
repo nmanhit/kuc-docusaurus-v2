@@ -115,7 +115,7 @@ v1.4.0 から、レンダリングされたコンポーネントのタグ名と�
 
 1. `customization` というフォルダを作成し、その配下で以下のコマンドを実行します。
 
-```sh
+```bash
 mkdir customization && cd customization
 npm init -y
 npm install kintone-ui-component
@@ -188,18 +188,22 @@ npm run build:webpack
 ## ブラウザ対応状況
 
 <table>
-  <tr>
-    <th>Chrome</th>
-    <th>Safari</th>
-    <th>Firefox</th>
-    <th>Edge</th>
-  </tr>
-  <tr>
-    <td>○</td>
-    <td>○</td>
-    <td>○</td>
-    <td>○</td>
-  </tr>
+   <thead>
+      <tr>
+         <th>Chrome</th>
+         <th>Safari</th>
+         <th>Firefox</th>
+         <th>Edge</th>
+      </tr>
+   </thead>
+   <tbody>
+      <tr>
+         <td>○</td>
+         <td>○</td>
+         <td>○</td>
+         <td>○</td>
+      </tr>
+   </tbody>
 </table>
 
 :::info
