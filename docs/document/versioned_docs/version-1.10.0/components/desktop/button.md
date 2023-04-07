@@ -9,9 +9,40 @@ original_id: button
 
 The Button component allows the user to create and display buttons.
 
-import { ButtonComponent } from "@site/static/js/samples/desktop/button.js"
+```jsx live
+function ButtonComponent() {
+  const divEl = useRef();
+  useEffect(() => {
+    const Kuc = Kucs["1.10.0"];
 
-<ButtonComponent />
+    const buttonNormal = new Kuc.Button({
+      text: "Normal",
+      type: "normal",
+      className: "kuc_normal_button",
+    });
+    const buttonSubmit = new Kuc.Button({
+      text: "Submit",
+      type: "submit",
+      className: "kuc_normal_button",
+    });
+    const buttonAlert = new Kuc.Button({
+      text: "Alert",
+      type: "alert",
+      className: "kuc_normal_button",
+    });
+
+    divEl.current.appendChild(buttonNormal)
+    divEl.current.appendChild(buttonSubmit)
+    divEl.current.appendChild(buttonAlert)
+  }, []);
+
+  return (
+    <div className="sample-container" id="button">
+      <div id="sample-container__components" ref={divEl}></div>
+    </div>
+  );
+}
+```
 
 ---
 
