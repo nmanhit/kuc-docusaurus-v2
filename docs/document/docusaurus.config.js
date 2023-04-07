@@ -149,10 +149,10 @@ const config = {
         respectPrefersColorScheme: false,
       },
       algolia: {
-        appId: 'PR3SWJDZEU',
-        apiKey: '074eaea538cd75b1536ce0ef1e70a73a',
-        indexName: 'kintone',
-        contextualSearch: false,
+        appId: 'QJ2QB6FCE5',
+        apiKey: '636c5f8d218f77cc2f87c81fbd95a9b8',
+        indexName: 'kuc-usaurus-v2',
+        contextualSearch: true,
       },
     }),
   plugins: [
