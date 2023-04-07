@@ -215,5 +215,7 @@ kintone.api(kintone.api.url('/k/v1/record', true), 'POST', postParam).then((resp
 });
 ```
 
-> 本記事は、 2021 年 ９ 月時点の kintone と Google Chrome で確認したものになります。<br/>
-> また、カスタマイズに使用した kintone UI Component のバージョンは、v1.1.0 です。
+:::info
+本記事は、 2021 年 ９ 月時点の kintone と Google Chrome で確認したものになります。<br/>
+また、カスタマイズに使用した kintone UI Component のバージョンは、v1.1.0 です。
+:::

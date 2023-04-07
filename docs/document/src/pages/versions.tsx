@@ -55,15 +55,15 @@ export default function Version(): JSX.Element {
         </Heading>
 
         <div className="margin-bottom--lg">
-          <Heading as="h3" id="next">
+          <Heading as="h3" id="next" style={{display: 'flex'}}>
             <div id="versionsPage.current.title">
               Current version (Stable)
             </div>
           </Heading>
           <p>
-            <div id="versionsPage.current.description">
+            <span id="versionsPage.current.description">
               Here you can find the documentation for current released version.
-            </div>
+            </span>
           </p>
           <table>
             <tbody>
@@ -86,16 +86,16 @@ export default function Version(): JSX.Element {
 
         {(pastVersions.length > 0) && (
           <div className="margin-bottom--lg">
-            <Heading as="h3" id="archive">
+            <Heading as="h3" id="archive" style={{display: 'flex'}}>
               <div id="versionsPage.archived.title">
                 Past versions (Not maintained anymore)
               </div>
             </Heading>
             <p>
-              <div id="versionsPage.archived.description">
+              <span id="versionsPage.archived.description">
                 Here you can find documentation for previous versions of
                 Docusaurus.
-              </div>
+              </span>
             </p>
             <table>
               <tbody>

@@ -144,5 +144,7 @@ kintone.api(kintone.api.url('/k/v1/records', true), 'GET', params).then(resp => 
 How is it working out for you? This section explains how to create a search box using the Kintone UI Component.<br/>
 We hope you can easily develop kintone customizations by using the kintone UI Component library.
 
-> This article was reviewed by Kintone and Google Chrome as of February, 2021.<br/>
-> In addition, the version of Kintone UI Component that is used for customizations is v1.0.0.
+:::info
+This article was reviewed by Kintone and Google Chrome as of February, 2021.<br/>
+In addition, the version of Kintone UI Component that is used for customizations is v1.0.0.
+:::

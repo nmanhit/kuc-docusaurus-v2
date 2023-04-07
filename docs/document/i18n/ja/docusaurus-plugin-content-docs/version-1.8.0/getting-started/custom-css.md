@@ -23,7 +23,7 @@ KUC は要素ごとにいくつかのプロパティを公開しているので�
 
 CSS セレクターを使って `--my-background` に値を指定することができます。
 
-```javascript
+```markup
 <style>
   my-element {
     --my-background: #d9092f;
@@ -48,7 +48,7 @@ CSS セレクターを使って `--my-background` に値を指定することが
 
 Text コンポーネントの CSS プロパティをカスタマイズする場合のサンプルコードです。
 
-```javascript
+```markup
 <style>
   kuc-text {
     --kuc-text-input-width: 200px;

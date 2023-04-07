@@ -152,7 +152,7 @@ module.exports = (env = {}) => {
 
 5. Execute the following command to generate a file for customization:
 
-```text
+```bash
 npm run build:webpack
 ```
 
