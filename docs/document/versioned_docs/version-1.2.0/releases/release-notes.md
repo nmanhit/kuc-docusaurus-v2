@@ -49,7 +49,7 @@ Now you can get the version information of the package using version property of
 In UMD, you can use version property of Kuc.<br/>
 Example:
 
-```JavaScript
+```js
 console.log(Kuc.version);
 ```
 <br/>
@@ -57,7 +57,7 @@ console.log(Kuc.version);
 In ESM, you can import "version" from kintone-ui-component.<br/>
 Example:
 
-```JavaScript
+```js
 import { version } from "kintone-ui-component/lib/version";
 console.log(version);
 ```

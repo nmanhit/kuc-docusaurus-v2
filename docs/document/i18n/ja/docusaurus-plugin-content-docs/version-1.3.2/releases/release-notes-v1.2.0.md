@@ -51,7 +51,7 @@ Kuc の version プロパティを使用して、パッケージのバージョ�
 UMD では、Kuc の version プロパティを使用できます。<br/>
 例:
 
-```JavaScript
+```js
 console.log(Kuc.version);
 ```
 <br/>

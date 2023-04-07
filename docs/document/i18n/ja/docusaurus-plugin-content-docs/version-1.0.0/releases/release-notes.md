@@ -42,7 +42,7 @@ v0 では様々ご要望をいただき、対応コンポーネントや機能�
   - ​v0 から大幅な使用感の変更にならないように考慮しました。
 
 1. v1.0.0
-```JavaScript
+```js
     const button = new Kuc.Button({
       type: 'submit',
       text: 'Search',
@@ -51,7 +51,7 @@ v0 では様々ご要望をいただき、対応コンポーネントや機能�
     header.appendChild(button);　// Show button
 ```
 2. v0.7.4
-```JavaScript
+```js
     const button = new kintoneUIComponent.Button({
       type: 'submit',
       text: 'Search',
@@ -63,7 +63,7 @@ v0 では様々ご要望をいただき、対応コンポーネントや機能�
   - 独自のメソッドをやめて、プロパティで設定できるように、シンプルな使い方を実現しました。
 
 1. v1.0.0
-```JavaScript
+```js
     const button = new Kuc.Button({
       type: 'submit',
       text: 'Search',
@@ -73,7 +73,7 @@ v0 では様々ご要望をいただき、対応コンポーネントや機能�
     button.text = 'Register'; // Update text property
 ```
 2. v0.7.4
-```JavaScript
+```js
     const button = new kintoneUIComponent.Button({
       type: 'submit',
       text: 'Search',

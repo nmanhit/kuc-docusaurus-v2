@@ -39,7 +39,7 @@ The major updates are as follows:
   - Inherit the interface from v0. This is for v0 users who don't want to experience a significant change for v1.
 
 1. v1.0.0
-```JavaScript
+```js
     const button = new Kuc.Button({
       type: 'submit',
       text: 'Search',
@@ -48,7 +48,7 @@ The major updates are as follows:
     header.appendChild(button);　// Show button
 ```
 2. v0.7.4
-```JavaScript
+```js
     const button = new kintoneUIComponent.Button({
       type: 'submit',
       text: 'Search',
@@ -60,7 +60,7 @@ The major updates are as follows:
   - Property can be directly accessed without using a method.
 
 1. v1.0.0
-```JavaScript
+```js
     const button = new Kuc.Button({
       type: 'submit',
       text: 'Search',
@@ -70,7 +70,7 @@ The major updates are as follows:
     button.text = 'Register'; // Update text property
 ```
 2. v0.7.4
-```JavaScript
+```js
     const button = new kintoneUIComponent.Button({
       type: 'submit',
       text: 'Search',
@@ -100,7 +100,9 @@ The following are the plans for the upcoming releases:
 - Mobile components
 - Improvement of documentation
 
-> As for v0, we will continue to fix bugs and update the dependent libraries. However, we are not planning to add new features to v0 as of now.
+:::info
+As for v0, we will continue to fix bugs and update the dependent libraries. However, we are not planning to add new features to v0 as of now.
+:::
 
 ## Conclusion
 
