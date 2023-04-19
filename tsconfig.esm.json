@@ -13,6 +13,7 @@
     "./src/readonly-table/",
     "./src/index.bundle.ts",
     "./src/**/test/",
-    "./src/**/**/test/"
+    "./src/**/**/test/",
+    "./docs/document"
   ]
 }
